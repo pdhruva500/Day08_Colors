@@ -1,0 +1,58 @@
+/* Color Theme Swatches in Hex */
+.Color-Theme-1-1-hex { color: #461859; }
+.Color-Theme-1-2-hex { color: #7FA658; }
+.Color-Theme-1-3-hex { color: #708C54; }
+.Color-Theme-1-4-hex { color: #8C6C61; }
+.Color-Theme-1-5-hex { color: #73564F; }
+
+/* Color Theme Swatches in RGBA */
+.Color-Theme-1-1-rgba { color: rgba(69, 24, 89, 1); }
+.Color-Theme-1-2-rgba { color: rgba(126, 165, 87, 1); }
+.Color-Theme-1-3-rgba { color: rgba(112, 140, 84, 1); }
+.Color-Theme-1-4-rgba { color: rgba(140, 108, 96, 1); }
+.Color-Theme-1-5-rgba { color: rgba(114, 85, 79, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Color-Theme-1-1-hsla { color: hsla(281, 57, 22, 1); }
+.Color-Theme-1-2-hsla { color: hsla(90, 30, 49, 1); }
+.Color-Theme-1-3-hsla { color: hsla(90, 25, 43, 1); }
+.Color-Theme-1-4-hsla { color: hsla(15, 18, 46, 1); }
+.Color-Theme-1-5-hsla { color: hsla(10, 18, 38, 1); }
+
+
+        nav {
+        background-color: #8C6C61;
+        }
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav li {
+        margin-right: 20px;
+        }
+        nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #575757;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #04AA6D;  /* a green highlight */
+        font-weight: bold;          /* make it stand out */
+        }
+
+        .body {
+            background-color: #461859;
+        }
+
+        .title-color {
+            color: #7FA658;
+        }
+
